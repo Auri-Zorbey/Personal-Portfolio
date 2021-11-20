@@ -1,5 +1,6 @@
 body {
     background-color: #fff !important;
+    height: auto;
 }
 
 .sidebar {
@@ -80,6 +81,7 @@ div.content {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../img/wallpaper2jpg.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    
 
 }
 
@@ -155,4 +157,12 @@ div.content {
     color: #006580;
     background: none !important;
     
+}
+
+.text-muted{
+    margin-left: 20px;
+}
+
+#footer{
+    margin-top: 70px !important;
 }
