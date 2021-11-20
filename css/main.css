@@ -10,6 +10,9 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
+    font-size: 22px;
+    font-family: cursive;
+
 }
 
 
@@ -95,27 +98,61 @@ div.content {
 
 .clearfix p {
 
-    width: 900px;
+    width: 1200px;
     font-weight: bolder;
-    
     opacity: 1 !important;
-
+    margin-top: 25px;
+    margin-bottom: -1rem;
+    font-family: cursive;
 }
 
 .yazi {
-    margin-top: 160px;
+    margin-top: 100px;
     font-size: 18px;
     text-align: center;
     color: #547585;
 
 }
-
 .ad {
     margin-top: 90px;
     width: 580px !important;
     text-align: center;
     font-size: 32px;
     background: none !important;
+    
 
 
+}
+
+.ad2 {
+   
+    width: 580px !important;
+    text-align: center;
+    font-size: 32px;
+    background: none !important;
+    
+
+
+}
+
+.busra {
+   
+    width: 580px !important;
+    text-align: center;
+    font-size: 32px;
+    color: #006580;
+    background: none !important;
+    
+
+
+}
+
+.web{
+   
+    width: 580px !important;
+    text-align: center;
+    font-size: 32px;
+    color: #006580;
+    background: none !important;
+    
 }
