@@ -1,6 +1,6 @@
-$("box").addEventListener("click",()=>{
-    $("box").css("background-color","black");
+$(".berk").click(()=>{
+    $(".berk").css("background-color","black");
 })
-document.getElementsByName("body").addEventListener("click",()=>{
-    $("box").css("background-color","yellow");
+$(".busra").click(()=>{
+    $(".busra").css("background-color","yellow");
 })

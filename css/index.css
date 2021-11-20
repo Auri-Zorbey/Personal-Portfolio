@@ -3,12 +3,20 @@
     padding:0;
     box-sizing: border-box;
 }
-.box{
+.berk{
     width: 100vw;
     height: 100vh;
     -webkit-clip-path: polygon(0 0, 88% 0, 12% 100%, 0% 100%);
     clip-path: polygon(0 0, 88% 0, 12% 100%, 0% 100%);
     background-color: red;
+    float: left;
+}
+.busra{
+    width: 100vw;
+    height: 100vh;
+    -webkit-clip-path: polygon(88% 0, 100% 0, 100% 100%, 12% 100%);
+clip-path: polygon(88% 0, 100% 0, 100% 100%, 12% 100%);
+   background-color: black;
 }
 
 
