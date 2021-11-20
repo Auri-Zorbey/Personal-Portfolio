@@ -1,0 +1,121 @@
+body {
+    background-color: #fff !important;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #073746;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.sidebar a {
+    display: block;
+    color: #b6ced8;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.sidebar a.active {
+    background-color: #006580;
+    color: white;
+}
+
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+#photo {
+    margin-top: 60px;
+    margin-right: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0, 7;
+}
+
+.clearfix {
+    margin-left: 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../img/wallpaper2jpg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.container {
+    width: 1284px;
+    height: 500px;
+    margin-right: 20px;
+
+
+}
+
+.content {
+    height: 10px;
+}
+
+.clearfix p {
+
+    width: 900px;
+    font-weight: bolder;
+    
+    opacity: 1 !important;
+
+}
+
+.yazi {
+    margin-top: 160px;
+    font-size: 18px;
+    text-align: center;
+    color: #547585;
+
+}
+
+.ad {
+    margin-top: 90px;
+    width: 580px !important;
+    text-align: center;
+    font-size: 32px;
+    background: none !important;
+
+
+}
