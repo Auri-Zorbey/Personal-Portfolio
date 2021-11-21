@@ -1,0 +1,159 @@
+body {
+    background: rgb(254,254,254);
+    background: linear-gradient(80deg, rgba(254,254,254,1) 46%, rgba(246,246,246,1) 95%);
+    height: auto;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #073746;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 22px;
+    font-family: cursive;
+
+}
+
+
+.sidebar a {
+    display: block;
+    color: #b6ced8;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+.sidebar a.active {
+    background-color: #006580;
+    color: white;
+}
+
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+#photo {
+    margin-top: 60px;
+    margin-right: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0, 7;
+}
+
+.clearfix {
+    height: 600px;
+    margin-left: 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('../img/wallpaper2jpg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+.container {
+    width: 1284px;
+    height: 500px;
+    margin-right: 20px;
+
+
+}
+
+.content {
+    height: 10px;
+}
+
+.clearfix p {
+
+    width: 1200px;
+    font-weight: bolder;
+    opacity: 1 !important;
+    margin-top: 25px;
+    margin-bottom: -1rem;
+    font-family: cursive;
+}
+
+
+
+.text-muted{
+    margin-left: 20px;
+}
+
+
+.contact{
+    padding: 4%;
+    height: 400px;
+    background-color: transparent !important;
+}
+.col-md-3{
+    background: #006580;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+   
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #006580;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+    margin-top: 10px;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
