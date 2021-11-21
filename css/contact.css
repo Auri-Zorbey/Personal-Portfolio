@@ -83,13 +83,14 @@ div.content {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), url('../img/wallpaper2jpg.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 3px
     
 
 }
 
 
 .container {
-    width: 1284px;
+    width: 1264px;
     height: 500px;
     margin-right: 20px;
 
@@ -156,4 +157,14 @@ div.content {
 .contact-form button:focus{
     box-shadow:none;
 }
+
+#footer{
+    position: relative;
+    margin-top: -3px; 
+    height: 3px;
+    clear:both;
+}
+
+
+
 
