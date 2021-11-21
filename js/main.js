@@ -1,11 +1,11 @@
 
 
+   
 $(".busra").click(()=>{
     $(".busra").css("clip-path","polygon(0 0, 100% 0%, 100% 100%, 0% 100%)");
     $(".busra h2").css("bottom","50vh");
     $(".busra h2").css("right","50vw");
-    setTimeout("window.open('main.html','_self')",1000);
-    
+    setTimeout("window.open('../page/main.html','_self')",1000);
     
 })
 $(".berk").click(()=>{
@@ -13,11 +13,11 @@ $(".berk").click(()=>{
     $(".busra").css("clip-path","polygon(100% 0, 100% 0, 100% 100%, 100% 100%)");
     $(".berk h2").css("top","50vh");
     $(".berk h2").css("left","50vw");
-    setTimeout("window.open('berk.html','_self')",1000);
+    setTimeout("window.open('../page/berkmainpage.html','_self')",1000);
     
-    
+
 })
-if($(".busra").clicked==false && $(".berk").clicked==false){
+
 $(".berk").hover(()=>{
     $(".berk").css("clip-path","polygon(0 0, 100% 0, 20% 100%, 0% 100%)");
     $(".busra").css("clip-path","polygon(100% 0, 100% 0, 100% 100%, 20% 100%)");
@@ -34,6 +34,4 @@ $(".busra").mouseleave(()=>{
     $(".berk").css("clip-path","polygon(0 0, 88% 0, 12% 100%, 0% 100%)");
     $(".busra").css("clip-path","polygon(88% 0, 100% 0, 100% 100%, 12% 100%)");
 })
-}
-
 
