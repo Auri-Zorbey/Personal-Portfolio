@@ -167,8 +167,8 @@ div.content {
 
 #footer{
     position: relative;
-    margin-top: 273px; 
-    height: -273px;
+    margin-top: 33px; 
+    height: -33px;
     clear:both;
 }
 
@@ -187,7 +187,7 @@ div.content {
     background: rgb(254,254,254);
     background: linear-gradient(80deg, rgba(254,254,254,1) 46%, rgba(246,246,246,1) 95%);
     border: none;
-    padding-bottom: 23px
+    padding-bottom: 33px
 
 }
 
