@@ -13,7 +13,7 @@ $(".berk").click(()=>{
     $(".busra").css("clip-path","polygon(100% 0, 100% 0, 100% 100%, 100% 100%)");
     $(".berk h2").css("top","50vh");
     $(".berk h2").css("left","50vw");
-    setTimeout("window.open('../page/berkmainpage.html','_self')",1000);
+    setTimeout("window.open('../berkpage/berkmainpage.html','_self')",1000);
     
 
 })
