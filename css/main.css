@@ -294,4 +294,7 @@ div.content {
     box-shadow:none;
 }
 
-
+.accordion-button{
+    background-color:#599bb3;
+    
+}
