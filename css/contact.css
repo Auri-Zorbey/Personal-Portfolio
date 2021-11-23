@@ -1,8 +1,13 @@
 .contact{
-    padding: 4%;
+    margin-left: 20px;
+    padding: 2%;
     height: 400px;
     background-color: transparent !important;
 }
+.clearfix{
+    height: 530px;
+}
+
 .contact-info{
     margin-top:10%;
 }
@@ -24,4 +29,15 @@
 }
 .contact-form button:focus{
     box-shadow:none;
+}
+textarea{
+    resize: none;
+}
+hr{
+    position: relative;
+    
+}
+.col-md-9{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
 }

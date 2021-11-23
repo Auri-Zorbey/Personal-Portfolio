@@ -8,7 +8,7 @@
 }
 
 .card img{
-    height: 500px;
+    height: auto;
     width: 400px;
 }
 
@@ -57,4 +57,9 @@
 #buttony:active {
 	position:relative;
 	top:1px;
+}
+
+hr{
+    position: relative;
+    margin-top: 180px;
 }
