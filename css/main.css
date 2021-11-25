@@ -1,3 +1,5 @@
+
+
 body {
     background: rgb(254,254,254);
     background: linear-gradient(80deg, rgba(254,254,254,1) 46%, rgba(246,246,246,1) 95%);
@@ -38,9 +40,17 @@ body {
 }
 
 
-
+@media (min-width:1200px) {
+    
+.container{
+    position: relative;
+    margin-left:180px;
+    width: 85% !important;
+}
+}
 
 @media screen and (max-width: 700px) {
+    
     .sidebar {
         width: 100%;
         height: auto;
@@ -159,6 +169,7 @@ body {
 }
 
 #footer{
+    margin-right: 40px;
     margin-left: 20px;
     margin-bottom: 40px;
     position: relative; 
