@@ -178,7 +178,7 @@ body {
 }
 hr{
     width: 100%;
-    margin-left: 20px;
+    
 }
 
 .container1{
@@ -186,20 +186,13 @@ hr{
     
 }
 
-
-
-
-.col-md-3{
-    background: #006580;
-    padding: 4%;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-}
-
-.col-md-9{
-   
-    padding: 3%;
-    border-top-right-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+@media (min-width: 768px){
+ .container{
+     width: 100%;
+ }
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 100% !important;
+    }
 }
 
